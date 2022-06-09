@@ -1,0 +1,55 @@
+.assinatura table,
+.assinatura tbody,
+.assinatura tr,
+.assinatura td {
+  border: none;
+}
+
+.assinatura td p {
+  margin: 0px 0px 0px 5px;
+  font-family: "Sans Serif", Arial, Helvetica;
+
+  color: #009cc4;
+  font-size: 9pt;
+}
+
+.assinatura .nome {
+  font-size: 10pt;
+  color: #014587;
+  font-weight: 900;
+}
+
+.assinatura .cargo {
+  font-style: italic;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.assinatura .site {
+  font-weight: 700;
+  color: #014587;
+}
+
+.assinatura .imgFolha img {
+  height: 110px;
+}
+
+.assinatura .info {
+  width: 365px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemInput {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-width: 250px;
+  margin-bottom: 10px;
+}
+.itemInput label {
+  margin-bottom: 5px;
+}

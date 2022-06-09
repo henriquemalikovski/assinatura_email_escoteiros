@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assinatura de E-mail</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form name="assinatura">
+    <div class="itemInput">
+      <label for="fname">Nome:</label>
+      <input type="text" id="fname" name="fname">
+    </div>
+    <div class="itemInput">
+      <label for="fcargo">Cargo:</label>
+      <input type="text" id="fcargo" name="fcargo">
+    </div>
+    <div class="itemInput">
+      <label for="fgrupo">Grupo:</label>
+      <input type="text" id="fgrupo" name="fgrupo">
+    </div>
+    <div class="itemInput">
+      <label for="ffone">Telefone:</label>
+      <input type="text" id="ffone" name="ffone">
+    </div>
+    <button onClick="clickButton()">Gerar Assinatura</button>
+  </form>
+
+
+  <table class="assinatura">
+    <tbody>
+      <tr>
+        <td class="imgFolha">
+          <img src="//i.imgur.com/eV7LGGT.png" alt="">
+        </td>
+        <td class="info">
+          <p id="nome" class="nome">Henrique Malikovski</p>
+          <p id="cargo" class="cargo">Diretor Administrativo</p>
+          <p id="grupo" class="grupo">Grupo Escoteiro Arés - 193/RS</p>
+          <p id="fone" class="fone">+55 (51) 99525 2540</p>
+          <p class="site">www.escoteirosrs.org.br</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
